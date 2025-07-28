@@ -1,27 +1,15 @@
-# Password Generator
+Password Generator
+A simple yet powerful password generator built with Python that creates cryptographically secure passwords using true random number generation.
 
-Simple and secure password generator written in Python.
+Features
+🔒 True random generation using secrets.SystemRandom()
 
-## Example Usage
+⚙️ Customizable character sets: lowercase, uppercase, digits, special characters
 
-=======================================================
-|           SECURE PASSWORD GENERATOR           |
--------------------------------------------------------
+📏 Enforced security standards: 12-character minimum length
 
-Enter password length (minimum 12): 12
+🧮 Entropy estimation: Approximate bit strength calculation
 
-Select character categories to include:
-  Lowercase letters (a-z)? [y/n]: y
-  Uppercase letters (A-Z)? [y/n]: y
-  Digits (0-9)? [y/n]: y
-  Special characters (!@#$%&*)? [y/n]: y
+💻 Zero dependencies: Pure Python implementation
 
-=======================================================
-################## GENERATED PASSWORD #################
-=======================================================
-
-i*jRYG1eU0*J
-
-=======================================================
-Length: 12 characters | Entropy: ~60 bits
-=======================================================
+🛡️ Security best practices: Guarantees at least one character from each selected category
